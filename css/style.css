@@ -1,0 +1,276 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ }
+
+/* -------- Navigation Section -------- */
+ nav{    
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+ }
+ nav .navbar{
+ 	display: flex;
+    justify-content: space-between;
+	background-color: #F2F4F4;
+	padding: 10px 200px;
+ }
+ 
+ nav .logo img {
+ 	height: 60px;	
+ 	width: 140px;
+ } 
+ nav .navigation {
+     display: flex;
+ }
+ 
+ nav .navigation ul {
+     display: flex;
+     align-items: center;
+ } 
+
+ nav .navigation ul li {
+     list-style-type: none;
+     margin-left: 50px;
+ } 
+ nav .navigation ul li .btn-header {
+ 	 font-size: 17px; 	
+     background-color: #FD6E0A;
+     color: #fff;
+     height: 50px;
+     border: 0;
+     padding: 14px 30px;
+     border-radius: 5px;
+ }
+ 
+ nav .navigation ul li a {
+ 	 font-size: 17px;
+     text-decoration: none;
+     color: #111;
+ }
+
+ nav .navigation ul li a:hover{
+ 	color: #FD6E0A;
+ }
+
+ header{
+ 	background-image: url('../images/banner/banner3.png');
+ 	background-repeat: no-repeat;
+ 	background-position: center ;
+ 	background-size: cover;
+ }
+
+/* -------- Banner Section -------- */
+
+ #banner-sec{
+     align-items: center;
+     padding: 30px 200px 0px 200px;
+     height: 805px;
+ }
+
+ #banner-sec .content{
+  	width: 500px;
+  	float: right;
+  	text-align: right;
+ }
+ #banner-sec .content h1 {
+ 	padding-top: 216px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px; 
+    color: #fff;   
+ }
+ 
+ #banner-sec .content p {
+     font-weight: 100;
+     font-size: 15px;
+     line-height: 26px;
+     color: #fff; 
+     padding: 15px 0px 20px 0px;
+ }
+ 
+ #banner-sec .content .btn-banner {
+     background-color: #fff;
+     color: blue;
+     border: 0;
+     padding: 20px 32px;
+     border-radius: 5px;
+     font-size: 18px;
+     font-weight: 700;
+ }
+
+/* -------- Failures Section -------- */
+
+ #failures-sec{
+ 	display: flex;
+ 	align-items: center;
+ 	padding: 100px 200px 50px 200px;
+ }
+
+ #failures-sec .right{
+ 	padding-top: 240px;
+ 	padding-left: 20px;
+ } 
+ #failures-sec .right h1{
+ 	font-weight: bold;
+    font-size: 40px;
+    line-height: 46px; 
+    color: #151414; 
+ }  
+ #failures-sec .right p{
+ 	font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #444343; 
+    padding: 0 75px 0 0;
+ } 
+ #failures-sec .right .check-content p{
+ 	font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #444343;
+
+ } 
+ #failures-sec .right .check-content span{
+ 	color: #16D887;
+ 	padding-right: 10px;
+ } 
+
+ #plan-sec{
+ 	padding: 30px 200px 100px 200px; 	
+ }
+
+/* -------- Plan Section -------- */
+
+#plan-sec .card-header h1{
+ 	font-weight: 700;
+    font-size: 40px;
+    line-height: 47px; 
+    color: #151414; 
+    text-align: center;
+    font-style: normal;
+    padding: 10px 0 40px 0;
+ }
+
+#plan-sec .card-content{
+  	display: flex;
+  	justify-content: space-between;
+  	text-align: center;
+ }  
+#plan-sec .card-content h1{
+ 	font-weight: 700;
+    font-size: 30px;
+    line-height: 35px; 
+    color: #151414; 
+    text-align: center;
+    padding-top: 10px;
+ } 
+ #plan-sec .card-content p{
+ 	font-weight: 500;
+    font-size: 25px;
+    line-height: 29px; 
+    color: #737272; 
+    text-align: center;
+    padding-top: 10px;
+ }
+
+/* -------- Mindset Section -------- */
+
+#mindset-sec{
+	text-align: left;
+	padding: 30px 200px 115px 200px;
+ }
+
+#mindset-sec .mindset-sec-content{
+	background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('../images/watch.png');
+	border-radius: 8px;
+	padding: 55px 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+ }
+
+#mindset-sec h1{
+	font-weight: 700;
+    font-size: 40px;
+    line-height: 46px; 
+    color: #000; 
+    font-style: normal;
+    padding: 0px 0px 10px 100px;
+    color: #fff;
+ }
+
+#mindset-sec .btn{
+	margin: 0px 0px 0px 100px;
+	color: #005FAC;
+	padding: 18px 32px;
+	border-radius: 5px;
+	border: 0;
+	font-size: 20px;
+	line-height: 24px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+ }
+
+/* -------- Footer Section -------- */
+
+footer{
+	display: flex;
+	padding: 140px 200px 140px 200px; 	
+	background-color: #151414;
+	color: #fff;
+ }
+
+footer .title{
+	font-weight: 700;
+    font-size: 45px;
+    line-height: 53px; 
+    color: #f8f8f8; 
+    padding: 10px 0;
+
+ }
+footer .contact-sec .sub-title{
+	font-weight: 100;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #fff; 
+	padding-right: 350px;
+ }
+footer .contact-sec .email,.phone{
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #fff; 
+ }
+
+footer .contact-sec .social-icons{
+	padding-top: 10px;
+ }
+footer .contact-sec .social-icons img{
+	margin-right: 10px;
+ }
+
+footer .subscribe-sec input{
+	background-color: #151414;
+	border: 1px solid #fff;
+	padding: 25px 130px 25px 10px;
+	border-radius: 10px;
+	outline: none;
+ }
+
+ footer .subscribe-sec input[type="text"]::placeholder {
+ 	color: #fff;
+ }
+
+footer .subscribe-sec .subscribe-btn{
+	background: #005FAC;
+	padding: 18px 32px;
+	border-radius: 5px;
+	border: 0;
+	font-size: 20px;
+	line-height: 24px;
+	color: #fff;
+ }
